@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 text-white font-sans;
+}
+
+.button-hover {
+  @apply transition-transform duration-300 ease-in-out;
+}
+.button-hover:hover {
+  @apply scale-105;
+}
+/* DEBUG: Remove ALL borders - Use temporarily to find the culprit */
+section, div, nav, footer, header, main, article {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+}
