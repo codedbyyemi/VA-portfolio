@@ -21,3 +21,50 @@ section, div, nav, footer, header, main, article {
   border-right: none !important;
   box-shadow: none !important;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0f172a, #0a1428, #07121f);
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Hide scrollbar but keep functionality (if the line is the scrollbar) */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Remove ALL borders, outlines, shadows */
+* {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove any pseudo-element lines */
+*::before,
+*::after {
+  display: none !important;
+}
+
+.button-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.button-hover:hover {
+  transform: scale(1.05);
+}

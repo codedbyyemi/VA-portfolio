@@ -15,7 +15,7 @@ export default function Projects() {
       title: "Microsoft Office Proficiency",
       description: "Expert in Microsoft Word, Excel, PowerPoint, and Outlook. Created professional documents, spreadsheets with complex formulas, and engaging presentations for client meetings.",
       image: Microsoftimg,
-      link: "https://1drv.ms/w/c/507535D53DF4C421/IQDa4lAOqCj8RYsd8k4tjSscAbac_K7Rrj7z-sr-Ru7drmM?e=sn1wpH",
+      link: "https://1drv.ms/w/c/507535D53DF4C421/IQAdeFqwESjgT5E0syJsTrmAAcMjxNytx1-K01uWpCBYnhM?e=A0wbg8",
       tags: ["Microsoft Word", "Excel", "PowerPoint", "Outlook"],
       category: "Microsoft Tools",
       client: "Multiple Clients"
